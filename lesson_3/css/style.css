@@ -1,0 +1,78 @@
+/* @import url("reset.css"); */
+
+/* Зверненнядо всіх на сторінці */
+* {
+	color: red;
+}
+
+
+/* Селектор тегу */
+
+p {
+	color: green;
+}
+
+
+/* Селектор класу */
+
+.paragraf {
+	color: blue;
+}
+
+/* Звернення до усіх тегів DIV,які мають клас BOX */
+
+div.box {
+	color: coral;
+}
+
+
+/* Звернення до тегу всередині класу */
+
+.paragraf a {
+	color: black;
+}
+
+/* Звернення до класу LINK всередині класу PARAGRAF  */
+
+.paragraf .link {
+	color: pink;
+} 
+
+/* Звернення до класів TEXT i BLOCK одночасно*/
+
+.text.block {
+	color: slateblue;
+}
+
+
+#down {
+	color: aquamarine;
+}
+
+/* Звертаємось відразу 
+	до кількох класів і тегів
+*/
+
+
+.title,
+.sub-title,
+li {
+	color: gold;
+}
+
+/* Селектор атрибуту */
+
+[class*="tle"] {
+	color:  hotpink; 
+}
+
+/* Звернення до всіх обєктів всередині класу PAGE */
+
+.page * {
+	color: rgb(255, 0, 234);
+}
+
+
+
+
+
