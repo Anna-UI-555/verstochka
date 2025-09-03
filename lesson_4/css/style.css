@@ -1,27 +1,129 @@
 @import url("fonts.css");
 
-/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:400;700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
 
 
 
 @import url("reset.css");
 
-h1 {
-	font-family: "Amatic SC", sans-serif;
-	font-weight: 400;
-	font-size: 50px;
+body {
+	font-family: "Lora", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+
 }
 
-h2 {
-	font-family: "Lora", serif;
-	/* font-style: italic; */
-	font-weight: 500;
+.title {
 	font-size: 50px;
+	color: plum;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: dotted;
+	text-transform: capitalize;
+
+}
+
+.sub-title {
+	font-family: "Amatic SC", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+.menu {
+	color: yellowgreen;
+}
+
+.menu>a {
+	color: brown;
+}
+
+
+
+.title+div {
+	color: green;
+
+}
+
+.breakfast,
+.lunch,
+.dinner {
+	font-weight: 700;
+	color: slateblue;
+	text-shadow:
+		5px 5px 15px rgba(5, 5, 5, 0.7),
+		-2px -2px 5px rgb(55, 0, 255);
+}
+
+[class*="raf"] {
+	color: hotpink;
+	text-align: right;
+}
+
+.sub-title~.list {
+	color: gold;
+	text-transform: uppercase;
+	word-spacing: 10px;
+}
+
+.list~p {
+	color: aqua;
+	line-height: 1.25;
+	/* 20/16 */
+
+}
+
+
+.list-number {
+	color: rgba(112, 5, 71, 0.651);
+	text-align: justify;
+	text-decoration: line-through;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+
+.box.one {
+	color: violet;
+	white-space: nowrap;
+}
+
+
+/* ================================Article=========================================================== */
+
+.article {
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	/* 30/16 */
+	color: #2B2929;
+
 }
 
 h6 {
-	font-family: "Proxima Nova";
-	font-size: 24px;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	/* 48/40 */
+	/* color: violet; */
+}
+
+
+
+.article div {
+	/* color: blue; */
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	/* 28/20 */
+}
+
+p~h6 {
+	text-align: center;
 }
